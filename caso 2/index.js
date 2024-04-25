@@ -17,6 +17,10 @@ console.log(array)
 let min = Math.min(...array)
 console.log(min)
 
-let newHeigth = 
-let newLong = 
-let newWidth = 
+let newHeigth = (min*60)
+let newLong = (min*40)
+let newWidth = (min*20)
+
+console.log("El factor de reduccion para el alto es de: "+newHeigth)
+console.log("El factor de reduccion para el largo es de: "+newLong)
+console.log("El factor de reduccion para el largo es de: "+newWidth)
