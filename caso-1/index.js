@@ -1,4 +1,6 @@
 // le pagaron 2 500 000
+//1 3 5 6
+export{money};
 
 let money = 2500000
 
@@ -14,11 +16,13 @@ switch (opcion) {
     case 1: console.log("Ha seleccionado comprar almojabana con gaseosa:")
     console.log("le caerá mal porque lleva mucho en el stand")
     console.log("Le quedan "+(money - 15000)+" de dinero disponible: ")
+    money = money - 15000
     break;
 
     case 2: console.log("Ha seleccionado comprar subway con gaseosa:")
     console.log("estará llenito y bien")
     console.log("Le quedan "+(money - 23000)+" de dinero disponible: ")
+    money = money - 23000
     break;
 
     case 3: console.log("No desea comprar nada")

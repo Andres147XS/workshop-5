@@ -1,10 +1,4 @@
-/*Caso 3
-
-ahora que Hildebrando se dirige a la ciudad de Medellín, llega a las 2 am, y debe abordar a las 3 am 
-para Macondo, se encuentra con el problema de que el wifi del aeropuerto está fallando, y necesita asegurar 
-su reserva en el hotel para el siguiente día, caminando por el aeropuerto encuentra wifi, la red se llama "
- ElPassEs: 01110010_01101001_01110111_01101001", pero la contraseña está cifrada en números binarios, además cobran 50.000 la hora.
-Tienen que crear un código que convierta los números binarios, a decimales y luego a caracteres */
+import { money } from "../caso-1/index.js";
 
 // Función para convertir un número binario a decimal
 function binaryToDecimal(binary) {
@@ -32,3 +26,5 @@ binaryArray.forEach(binary => {
 
 // Imprimir la contraseña
 console.log("Contraseña descifrada:", password);
+
+money = money - 50000
